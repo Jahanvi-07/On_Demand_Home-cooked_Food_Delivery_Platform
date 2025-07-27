@@ -18,34 +18,18 @@ Built as part of a hands-on learning project under the guidance of **Infotact So
 
 
 
-### 🛠️ Tech Stack
+### 💻 Tech Stack:
 
-* **Frontend**: HTML, CSS, JavaScript
-* **Backend**: Node.js
-* **Database**: MongoDB
-
+* **Frontend**– HTML, CSS, JavaScript
+* **Backend**– Node.js (Express)
+* **Database** – MongoDB (using Mongoose)
+ 
 
 
 ### 👥 Team Members
 
 * **Jahanvi Saini**
 * **Durgesh Kumar**
-
-
-
-### 📁 Project Structure (Example)
-
-```
-/ghar-ka-khana/
-│
-├── static/                # CSS, JavaScript, images
-├── templates/             # HTML templates (Jinja2)
-├── app.py                 # Main Flask application
-├── database.db            # SQLite database
-├── README.md              # Project overview
-└── requirements.txt       # Python dependencies
-```
-
 
 
 ### 🧠 What We Learned
@@ -65,33 +49,56 @@ Thanks to **Infotact Solutions** for the mentorship and opportunity to work on t
 
 ### 📸 Demo
 
-*(Add screenshots or link to your project demo video here)*
+<img width="1908" height="1089" alt="Image" src="https://github.com/user-attachments/assets/3c3da29d-b5e7-45a6-968c-93f6effd3668" />
 
+<img width="1910" height="1085" alt="Image" src="https://github.com/user-attachments/assets/05cb0a25-f22a-4b79-a357-dbf9139d95c8" />
+
+<img width="1910" height="1027" alt="Image" src="https://github.com/user-attachments/assets/04351c2f-b541-44f8-9740-31d8ee897193" />
 
 
 ### 📦 How to Run the Project
 
-1. Clone the repository
+### ✅ Prerequisites
+Node.js and npm installed
 
-   ```bash
-   git clone https://github.com/your-username/ghar-ka-khana.git
-   cd ghar-ka-khana
-   ```
+MongoDB installed and running locally or access to a MongoDB Atlas connection string
 
-2. Install dependencies
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+#### 🛠️ Steps to Run:
 
-3. Run the app
+1. **Clone the Repository**
 
-   ```bash
-   python app.py
-   ```
+```bash
+git clone https://github.com/your-username/ghar-ka-khana.git
+cd ghar-ka-khana
+```
 
-4. Open in browser
+2. **Install Backend Dependencies**
 
-   ```
-   http://localhost:5000
-   ```
+```bash
+npm install
+```
+
+3. **Configure Environment Variables**
+
+Create a `.env` file in the root directory and add the following:
+
+```
+PORT=5000
+MONGODB_URI=your_mongo_connection_string
+```
+
+4. **Start the Server**
+
+```bash
+npm start
+```
+
+The backend server will start on `http://localhost:5000`.
+
+5. **Open Frontend**
+
+Open the `index.html` file from the `frontend/` folder in your browser directly, or serve it via a local web server (like Live Server or http-server).
+
+✅ **You're all set!** You can now browse, order, and schedule home-cooked meals via *Ghar Ka Khana* 🍱
+
