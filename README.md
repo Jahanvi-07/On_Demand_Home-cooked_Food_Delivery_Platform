@@ -69,7 +69,7 @@ MongoDB installed and running locally or access to a MongoDB Atlas connection st
 1. **Clone the Repository**
 
 ```bash
-git clone https://github.com/your-username/ghar-ka-khana.git
+https://github.com/Jahanvi-07/On_Demand_Home-cooked_Food_Delivery_Platform.git
 cd ghar-ka-khana
 ```
 
